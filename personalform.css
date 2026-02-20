@@ -1,0 +1,68 @@
+body{
+    background-image: url(/asset/image/3HU-QImqEn_L01lncTIvB.png);
+}
+.content{
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+background-color: aqua;
+width: 440px;
+height: auto;
+margin-right: 38.5rem;
+margin-top: 10rem;
+border-radius: 1.5rem;
+gap: 1rem;
+padding-bottom: 2rem;
+padding-right: 1rem;
+}
+.uForm{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+}
+.selectbox{
+    width: 9.3rem;
+    height: 1.3rem;
+}
+button{
+    width: 9.3rem;
+    height: 2.3rem;
+    color: white;
+    background-color: blue;
+    border-radius: .2rem;
+    cursor: pointer;
+}
+button:hover{
+    color: black;
+    background-color:aquamarine;
+    transition: all .4s;
+    transform: scale(1.1);
+}
+.overlay{
+    opacity: 0;
+    visibility: hidden;
+    position: fixed;
+    inset: 0;
+    background: rgba(0, 0, 0, .4);
+    z-index: 5;
+    transition: all 1s;
+}
+.modal{
+    opacity: 0;
+    visibility: hidden;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    background-color: white;
+    padding: 2rem;
+    border-radius: .8rem;
+    z-index: 6;
+    min-width: 300px;
+    max-width: 90%;
+    transition: all 1s;
+    width: 100vw;
+}

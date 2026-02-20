@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en"></html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>personalForm</title>
+    <link rel="stylesheet" href="/asset/style/personalform.css">
+    <script src="/asset/js/personalform.js" defer></script>
+</head>
+<body dir="rtl">
+    <div class="content">
+        <form action="" id="userForm" class="uForm">
+            <h1 class="heading">فرم ثبت اطلاعات کاربران</h1>
+            <input type="text" id="name" class="uName" placeholder="نام" >
+            <input type="text" id="family" class="uFamily" placeholder="نام خانودگی" >
+            <input type="email" id="email" class="uEmail" placeholder="ایمیل">
+            <input type="text" id="job" class="uJob" placeholder="شغل" >
+            <input type="tel" id="phone" class="uPhone" placeholder="شماره تماس" >
+            <select id="gender" class="selectbox" >
+                <option value="" disabled selected>جنسیت</option>
+                <option value="مذکر">مذکر👱</option>
+                <option value="مؤنث">مؤنث👩‍🦳</option>
+            </select>
+            <button id="s" type="submit">افزودن</button>
+        </form>
+        <button id="showModal">نمایش همه کاربران</button>
+        <button id="foundByEmail">پیدا کردن با ایمیل</button>
+        <button id="areHaveJob">آیا همه شاغلند؟</button>
+        <button id="haveMan">آیا حداقل یک مرد هست؟</button>
+        <div id="overlay" class="overlay">
+            <div id="modal" class="modal">
+                
+            </div>
+        </div>
+    </div>
+</body>
+</html>
