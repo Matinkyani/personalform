@@ -1,6 +1,10 @@
 body{
-    background-image: url("3HU-QImqEn_L01lncTIvB.png");
+    background-image: url("3HU-QImqEn_L01IncTIvB.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
 }
+
 .content{
 display: flex;
 flex-direction: column;
