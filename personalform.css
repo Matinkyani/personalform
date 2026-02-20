@@ -1,9 +1,7 @@
 body{
-    background-image: url("page");
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
+    background-color: black;
 }
+
 
 .content{
 display: flex;
